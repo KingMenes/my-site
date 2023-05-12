@@ -1,0 +1,38 @@
+{
+  "name": "react-training",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://KingMenes.github.io/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "axios": "^1.2.5",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-bootstrap": "^2.7.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.8.1",
+    "react-type-animation": "^3.0.1",
+    "swiper": "^8.4.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "gh-pages": "^5.0.0",
+    "postcss": "^8.4.21",
+    "prettier": "2.8.7",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
+  }
+}
