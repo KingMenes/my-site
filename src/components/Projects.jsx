@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import img1 from "../assets/images/tutoral.png";
 import img2 from "../assets/images/hiremepls.png";
 import img3 from "../assets/images/project-img3.png";
+import img4 from "../assets/images/coverletter.png";
 import darkwing from "../assets/images/darkwing.png";
 import hawkeye from "../assets/images/hawkeye.png";
 import { FaReact, FaSass } from "react-icons/fa";
@@ -46,6 +47,15 @@ function Projects() {
       img: img2,
       link: "https://hiremepls-rsb9.onrender.com/",
       tech: ["React", "Sass CSS", "MongoDB", "Express.js"],
+    },
+    {
+      id: 3,
+      title: "Cover Letter Generator",
+      description:
+        "Tired of having to write a personalized cover letter for hundreds of job applications? Have AI write it for you! Just provide your resume and a job description for a personalized cover letter!",
+      img: img4,
+      link: "https://github.com/KingMenes/cover-letter-writer",
+      tech: ["React", "TailwindCSS", "REST API", "GPT-4"],
     },
   ];
 
