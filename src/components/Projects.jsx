@@ -5,6 +5,7 @@ import img3 from "../assets/images/project-img3.png";
 import img4 from "../assets/images/coverletter.png";
 import darkwing from "../assets/images/darkwing.png";
 import hawkeye from "../assets/images/hawkeye.png";
+import site from "../assets/images/personalSite.png";
 import { FaReact, FaSass } from "react-icons/fa";
 import { SiTailwindcss, SiFirebase, SiMongodb } from "react-icons/si";
 import "../styles.css";
@@ -16,6 +17,14 @@ function Projects() {
   const projects_soft = [
     {
       id: 1,
+      title: "Personal Site",
+      description:
+        '"To understand recursion, one must first understand recursion. "\n Written in React and Vite.',
+      img: site,
+      link: "#",
+    },
+    {
+      id: 2,
       title: "Tutoral.org",
       description:
         "An online tutoring site aimed to connect parents and clients to in-home tutors in many subjects.",
@@ -40,7 +49,7 @@ function Projects() {
       // ],
     },
     {
-      id: 2,
+      id: 3,
       title: "hiremepls",
       description:
         "Need help finding your new job? Join a community of like-minded professionals that can help you find your dream career and ace the interview!",
@@ -49,7 +58,7 @@ function Projects() {
       tech: ["React", "Sass CSS", "MongoDB", "Express.js"],
     },
     {
-      id: 3,
+      id: 4,
       title: "Cover Letter Generator",
       description:
         "Tired of having to write a personalized cover letter for hundreds of job applications? Have AI write it for you! Just provide your resume and a job description for a personalized cover letter!",

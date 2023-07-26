@@ -9,8 +9,12 @@ function ProjectCard({ item }) {
   return (
     <>
       <a href={item.link} target="_blank">
-        <div className="img-box w-[600px] lg2:w-auto mx-auto flex justify-center items-center relative overflow-hidden rounded-3xl">
-          <img src={item.img} alt="" className="w-full" />
+        <div className="img-box w-[700px] h-[300px] lg2:w-auto mx-auto flex justify-center items-center relative overflow-hidden rounded-3xl">
+          <img
+            src={item.img}
+            alt=""
+            className="flex-shrink-0 min-w-full min-h-full"
+          />
           <div className="p flex flex-col justify-center items-center absolute top-[-100%] left-0 h-full w-full text-center bg-[#1a67b3] bg-opacity-80 p-4">
             <h1 className="font-bold text-3xl">{item.title}</h1>
             <p className="font-bold">{item.description}</p>

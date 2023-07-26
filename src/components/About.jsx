@@ -1,5 +1,5 @@
 import bg from "../assets/images/banner-bg.png";
-import portrait from "../assets/images/portrait.jpg";
+import portrait from "../assets/images/portrait2.jpg";
 
 function About() {
   return (
@@ -28,7 +28,11 @@ function About() {
               </p>
             </div>
             <div className="about-picture w-1/3 ml-10">
-              <img className="rounded-full w-full" src={portrait} alt="" />
+              <img
+                className="rounded-full flex-shrink-0 min-h-full min-w-full"
+                src={portrait}
+                alt=""
+              />
             </div>
           </div>
         </div>
